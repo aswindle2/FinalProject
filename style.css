@@ -1,0 +1,43 @@
+body{
+  background-color: white;
+
+}
+#Heading{
+  width: 100%;
+  bottom: 15px;
+  postion: relative;
+  height: 200 px;
+  background-color: gray;
+}
+#Intro{
+  color: black;
+  font-size: 20px;
+  margin-left: 45px; 
+  padding-top: 15px;
+  font-size: 30px;
+}
+#navigation{
+  height: 40px;
+  position: relative;
+  color: black;
+  font-size: 30px;
+}
+#content{
+  background-color: white;
+  height: 1700px;
+  width: 100%;
+  postion: relative;  
+  margin-top: 20px;
+  font-size: 15px;
+}
+footer{
+  margin-top: 25px;
+  width: 100%;
+  margin: auto;
+}
+#footer{
+  border-top: 1px black dotted;
+  color: black;
+  font-size: 20px;
+}
+

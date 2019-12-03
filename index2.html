@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Final Project" content="Final">
+  <title> Adrienne Swindle's Final Project</title>
+  <link rel="style sheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel= "stylesheet" href= "style2.css">                                                                                                                     
+</head>
+
+<body>
+  <div id="Heading">
+    <div id="Intro">
+      <h1>
+        <center> Adrienne Swindle's Final Project</center>
+      </h1>
+      <h3>
+        <center>CIS 376</center>
+      </h3>
+    </div>
+    <div id="navigation">
+      <a class="nav-item nav-link active" href="https://github.com/aswindle2/FinalProject">GitHub Pages</a>
+      <a class="nav-item nav-link" href="index1.html">Original Page</a>
+    </div>
+  </div>
+  <div id="content">
+    <div id="selection box">
+
+      <!--Creating a drop-down box to select the center-->
+      <fieldset>
+        <legend>Student Options</legend>
+        <p>Select the Center:</p>
+        <select id="Center" name = "Center">
+        <option value = "Center for Writing Excellence"> Center for Writing Excellence</option>
+        <option value = "Mathematics Learning Center">Mathematics Learning Center></option>
+        <option value = "Tutoring Support">Tutoring Support</option>
+        <option value = "University Advising Services">University Advising Services</option>
+        <option value = "Supplemental Instruction">Supplemental Instruction</option>
+        <option value = "College of Business Advising">College of Business Advising</option>
+        <option value = "Lion Learning Center">Lion Learning Center</option>
+        </select>
+        
+<!--Creaing a drop-down box that allows the user to choose whether they would like and in-person or online session-->
+        
+        <br></br>
+        <p> Online or In-person:</p>
+        <select id="Choice" name = "Class">
+        <option value = "Online">Online</option>
+        <option value = "In-person">In-Person</option>
+        </select>
+		
+
+        <!--Creating a drop-down box that allows the user to select the location of the session if in person-->
+        <br></br>
+        <p>Select your Location: (Not applicable for Online Tutoring)</p>
+        <select id="Location" name = "Location">
+           <option value = "Collier Library">Collier Library</option>
+           <option value = "Commons">Commons</option>
+        <option value = "Raburn">Raburn</option>
+           <option value = "Lion Learning Center">Lion Learning Center</option>
+        </select>
+
+        <!-- Creating a drop-down box that would allow the student to choose which class the tutoring appointment is for. This would be connected through portal to the student schedule. However, since I do not have access to that connection, I will substitute in an example schedule.-->
+        <br></br>
+        <p> Select the Class:</p>
+        <select id="Class" name = "Class">
+          <option value = "Web Development">Web Development</option>
+          <option value = "English">English</option>
+          <option value = "Math">Math</option>
+          <option value = "Geography">Geography</option>
+        </select>
+        <!-- Allows the user to select the dates available for the appointment-->
+        <br></br>
+        <p> Dates:</p>
+        <select id="Dates" name = "Dates">
+        <label for="From:">From:</label>
+        <input type = "date" value = "FirstDate"/>    
+      <select id = "FinalDate" name = "FinalDate">
+        <label for="Final:">To:</label>
+        <input type = "date" name = "To:" />
+      </select>
+		<input id = "submit" type = "submit" value = "submit"/>
+    </div>
+    <div id="consolebox">
+    </div>
+    <p>
+      <center>By eliminating unnecessary questions from the form, the user is able to use the website and service with minimal confusion. In the original design, there were mistakes with the options that further confused students. For example, under certain centers,
+        there would be no option to choose an example. However, to make an appointment, a section must be selected. From this page, a link to student tutor records would allow a student to select a tutor. In the original format,
+		the student must search for the webpage that would allow them to sign up for a tutoring session.</center>
+    </p>
+  </div>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "script.js"></script>
+</body>
+<footer>
+  <div id="footer">
+    <p>
+      <center>Adrienne Swindle</center>
+    </p>
+    <p>
+      <center>CIS 375-Fall 2019</center>
+    </p>
+  </div>
+</footer>
+</html>

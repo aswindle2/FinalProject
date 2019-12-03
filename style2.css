@@ -1,0 +1,59 @@
+body{
+  background-color: white;
+}
+#Heading{
+  width: 100%;
+  bottom: 15px;
+  postion: relative;
+  height: 200 px;
+  background-color: gray;
+}
+#Intro{
+  color: black;
+  font-size: 20px;
+  margin-left: 45px; 
+  padding-top: 15px;
+  font-size: 30px;
+}
+#navigation{
+  height: 40px;
+  position: relative;
+  color: black;
+  font-size: 30px;
+}
+#content{
+  height: 1000px;
+  background-color: white;
+  width: 100%;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+#selection box{
+  height: 40px;
+  width:30px;
+  align: center;
+  background-color:white;
+}
+#consolebox{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin-top: 25px; 
+  margin-left: 45%;
+  align: center;
+  font-size: 10px;
+}
+footer{
+  margin-top: 20px;
+  width: 100%; 
+}
+#footer{
+  font-size: 20px;
+  border-top: 1px black dotted;
+  color: black;  
+}
+
